@@ -2,30 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10458" started-at="2017-09-07T07:58:15Z" finished-at="2017-09-07T07:58:25Z">
+  <suite name="Default suite" duration-ms="10030" started-at="2017-09-07T10:11:02Z" finished-at="2017-09-07T10:11:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10458" started-at="2017-09-07T07:58:15Z" finished-at="2017-09-07T07:58:25Z">
+    <test name="Default test" duration-ms="10030" started-at="2017-09-07T10:11:02Z" finished-at="2017-09-07T10:11:12Z">
       <class name="com.cmtests.all.OracleConfiguratorTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@6a41eaa2]" name="init" is-config="true" duration-ms="297" started-at="2017-09-07T13:28:15Z" finished-at="2017-09-07T13:28:15Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@7cd62f43]" name="init" is-config="true" duration-ms="4653" started-at="2017-09-07T15:41:02Z" finished-at="2017-09-07T15:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="monitoringTest()[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@6a41eaa2]" name="monitoringTest" duration-ms="10142" started-at="2017-09-07T13:28:15Z" finished-at="2017-09-07T13:28:25Z">
+        <test-method status="PASS" signature="configTest()[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@7cd62f43]" name="configTest" duration-ms="5019" started-at="2017-09-07T15:41:07Z" finished-at="2017-09-07T15:41:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- monitoringTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@6a41eaa2]" name="getResult" is-config="true" duration-ms="2" started-at="2017-09-07T13:28:25Z" finished-at="2017-09-07T13:28:25Z">
+        </test-method> <!-- configTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@7cd62f43]" name="getResult" is-config="true" duration-ms="3" started-at="2017-09-07T15:41:12Z" finished-at="2017-09-07T15:41:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=monitoringTest status=SUCCESS method=OracleConfiguratorTest.monitoringTest()[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@6a41eaa2] output={null}]]]>
+                <![CDATA[[TestResult name=configTest status=SUCCESS method=OracleConfiguratorTest.configTest()[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@7cd62f43] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:com.cmtests.all.OracleConfiguratorTest@7cd62f43]" name="endreport" is-config="true" duration-ms="337" started-at="2017-09-07T15:41:12Z" finished-at="2017-09-07T15:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
       </class> <!-- com.cmtests.all.OracleConfiguratorTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
