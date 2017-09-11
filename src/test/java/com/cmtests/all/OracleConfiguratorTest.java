@@ -21,6 +21,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class OracleConfiguratorTest {
+	private static final int priority = 0;
 	ExtentReports extent;
     ExtentTest test;
     WebDriver driver;
@@ -32,7 +33,7 @@ public class OracleConfiguratorTest {
         extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/MonitoringResults.html", true);
     }
      
-    @Test
+    @Test(priority=1)
     public void configTest() throws InterruptedException
     {
         test = extent.startTest("monitoringTest");        
